@@ -1,0 +1,49 @@
+body
+{
+	background-color: #01178E;
+}
+
+#content
+{
+	font-family:"Segoe UI Light", sans-serif;
+	color: white;
+	margin-left: 400px;
+	margin-top: 0px;
+	font-size: 70px;
+}
+
+#nokia
+{
+	margin-left:400px;
+	margin-top: 250px;
+}
+
+#phone
+{
+	margin-right:500px;
+	margin-top: 0px;
+	float:right;
+}
+
+#available
+{
+	font-family:"Segoe UI Light", sans-serif;
+	color: white;
+	margin-top:0px;
+	margin-left:400px;
+	font-size:40px;
+}
+
+#time
+{
+	font-family:"Segoe UI Light", sans-serif;
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+	font-size:20px;
+}
+
+#disclaimer
+{
+	margin-left: 800px;
+}

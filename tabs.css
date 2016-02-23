@@ -1,0 +1,56 @@
+body 
+{ 
+    font-size: 80%;                         /* Default font and size for page */
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif; 
+	background-color: LightBlue;
+}
+ul#tabs 
+{ 
+    list-style-type: none;                  /* No bullets                     */
+    margin: 50px 0 0 0;                    /* Positive top margin            */
+    padding: 0 0 0.3em 0;                   /* Bottom padding on tabs to make  */
+                                            /* them adjacent to the content   */									
+}
+ul#tabs li 
+{ 
+    display: inline; 					/* places objects horizontaly in a line */
+    padding: 12px;						/* adds 12 pixels of padding to the tabs */
+}
+
+ul#tabs li a 
+{ 
+    color: #42454a; 					/* makes the font this color */
+    background-color: AntiqueWhite; 	/* makes the background this color */
+    border: 1px solid #c9c3ba; 			/* makes a 1 pixel border with this color */
+    border-bottom: none; 				/* no bottom border */
+    border-top-left-radius: 7px;		/* rounds top-left corner by 7 pixels */
+    border-top-right-radius: 7px;		/* rounds top-right corner by 7 pixels */
+    padding: 0.3em 2em 0.3em 2em;		/* sets padding to these values */
+    text-decoration: none; 				/* no text decoration */
+
+}
+
+ul#tabs li a:hover 
+{ 
+    background-color: #f1f0ee; 		/* sets default background color */
+}
+
+ul#tabs li a.selected 
+{ 
+    color: #000; 				/* sets default text color */
+    background-color: #f1f0ee; 	/* sets default background color */
+    font-weight: bold; 			/* bolds the font */
+    padding: 0.7em 0.3em 0.38em 0.3em; 	/* sets the padding to this value */
+}
+
+div.tabContent 
+{ 
+    border: 1px solid #c9c3ba; 		/* sets a 1 pixel border with this color */
+    padding: 0.5em; 				/* sets padding to this value */
+    background-color: #f1f0ee; 		/* sets default background color */
+}
+
+div.tabContent.hide 
+{ 
+    display: none; 					/* takes this element off the page */
+}
