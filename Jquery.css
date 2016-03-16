@@ -1,0 +1,23 @@
+body
+{
+	background-color:#6C1420;
+}
+
+h1
+{
+	font-size: 75px;
+	color:black;
+	text-align:center;
+}
+
+button
+{
+	margin:0px,0px,0px,500px
+}
+
+p
+{
+	font-size: 40px;
+	color:black;
+	text-align:center;
+}

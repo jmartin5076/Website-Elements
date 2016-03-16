@@ -54,3 +54,9 @@ div.tabContent.hide
 { 
     display: none; 					/* takes this element off the page */
 }
+
+img
+{
+	width:1200px;
+	height: 600px;
+}
