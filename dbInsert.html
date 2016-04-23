@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Database Insert</title>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="dbInsert.js" type="text/javascript"></script>
+		<link href="tabs.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body onload="onLoad()">
+	<p>Genres include:Rap,Rock,Vocaloid,VideoGames,and Metal,</p>
+		<form id="dbInsert" name="dbInsert">
+			Genre:
+			<input type="text" id="Genre" name="Genre"></input>
+			<br>
+			<br>
+			Song Name:
+			<input type="text" id="SongName" name="SongName">
+			<br>
+			<br>
+			Youtube Link:
+			<input type="text" id="YoutubeLink" name="YoutubeLink">
+			<br>
+			<br>
+			<button type="button" onclick="insertSong()">
+				Insert
+			</button>
+			<button type="button" onclick="showSong()">
+				Show Songs
+			</button>	
+			<p id="results"></p>
+		</form>
+	</body>
+</html>
